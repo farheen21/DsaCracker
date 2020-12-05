@@ -1,0 +1,21 @@
+write a program to check whether a string is Palindrom or not?
+Approch:-
+There are two method for this 
+1)By using Recurrsion
+2)By using high and low pointer
+
+1) Recursive Approch
+check the base condition like 
+(n==0) 
+return ture
+(start!=end)  retrun false 
+ (start==end)  check for further string 
+if (start<end+1) , call the function with smaller input as 
+recPalindrom(str,s+1 ,e-1)
+ return ture
+
+2)High and Low pointer 
+initialize high as n-1 and low as 0
+loop for (h>1) 
+check if str[l] == str[h] ,increament both 
+retrun ture else false
